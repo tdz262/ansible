@@ -5,4 +5,4 @@
 
   tasks:
   - name: Cleaning up
-    shell: sudo apt-get -f install && sudo apt-get autoremove && sudo apt-get -y autoclean && sudo apt-get -y clean
+    shell: sudo apt-get autoremove && sudo apt-get -y autoclean && sudo apt-get -y clean
