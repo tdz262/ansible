@@ -1,5 +1,5 @@
 ---
-- hosts: '{{inventory}}'
+- hosts: 'linux'
   become: yes
   become_method: sudo
 
