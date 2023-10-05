@@ -1,7 +1,8 @@
 ---
-- hosts: linux
-  become: true
+- name: Update
+  hosts: linux
   remote_users: tzimmerman
+  become: true
   tasks:
     - name: Update all packages to their latest version
       ansible.builtin.apt:
