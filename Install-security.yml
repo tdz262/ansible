@@ -2,7 +2,7 @@
 #This will update and install only the security updates
 #
 ---
-- hosts: '{{inventory}}'
+- hosts: 'linux'
   become: yes
 
   tasks:
